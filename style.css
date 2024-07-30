@@ -1,31 +1,41 @@
 .container {
     display: flex;
+    /* Dictates the direction of the Main Axis */
     flex-direction: row;
-    /* Defines how flex item will be stacked along the main axis (y axis) */
-    justify-content: space-between;
-    border: 2px solid;
-    box-sizing: border-box;
+    /* Defines how flex item will be stacked along the Main Axis */
+    justify-content: flex-end;
+    /* Aligns item along the Cross Axis */
+    align-items: flex-start;
+    border: 12px solid darkgoldenrod;
 }
 
 .item {
     color: red;
-    height: 80px;
     width: 80px;
     text-align: center;
     font-size: 35px;
+    margin: 15px;
     padding: 20px;
 }
 
 .item-1 {
     background-color: aqua;
     color: #000;
+    height: 50px;
 }
 .item-2 {
     color: aliceblue;
     background-color: blue;
+    height: 150px;
 }
 
 .item-3 {
     color: rgb(0, 0, 0);
     background-color: tomato;
+}
+
+.item-4 {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    height: 200px;
 }
