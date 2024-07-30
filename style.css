@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    /* Defines how flex item will be stacked along the main axis (y axis) */
+    justify-content: space-between;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.item {
+    color: red;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.item-1 {
+    background-color: aqua;
+    color: #000;
+}
+.item-2 {
+    color: aliceblue;
+    background-color: blue;
+}
+
+.item-3 {
+    color: rgb(0, 0, 0);
+    background-color: tomato;
+}
