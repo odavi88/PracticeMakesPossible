@@ -1,41 +1,24 @@
-.container {
+.flexbox-container {
+    /* display turns whatever element it is tagged with into a "alignible" element*/
     display: flex;
-    /* Dictates the direction of the Main Axis */
-    flex-direction: row;
-    /* Defines how flex item will be stacked along the Main Axis */
-    justify-content: flex-end;
-    /* Aligns item along the Cross Axis */
-    align-items: flex-start;
-    border: 12px solid darkgoldenrod;
+    /* justify-content allow me to manipulate the alignment of child elements on the main axis */
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 28, 128, 0.44);
+    padding: 15px;
 }
 
-.item {
-    color: red;
-    width: 80px;
-    text-align: center;
-    font-size: 35px;
-    margin: 15px;
-    padding: 20px;
+.segoe-font.blue {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 28, 128);
 }
 
-.item-1 {
-    background-color: aqua;
-    color: #000;
-    height: 50px;
-}
-.item-2 {
-    color: aliceblue;
-    background-color: blue;
-    height: 150px;
+.segoe-font.red {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: crimson;
 }
 
-.item-3 {
-    color: rgb(0, 0, 0);
-    background-color: tomato;
-}
-
-.item-4 {
-    color: rgb(0, 0, 0);
-    background-color: yellow;
-    height: 200px;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
