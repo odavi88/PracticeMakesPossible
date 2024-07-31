@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    background-color: #a85e32;
+    background-color:   whitesmoke;
     padding-left: 15px;
 }
 h1.child-1 {
@@ -48,7 +48,8 @@ color: #000;
 button {
     width: 100px;
     height: 50px;
-    border-radius: 20px;
-    background-color: #eea21f;
+    border-radius: 15px;
+    border-color: aquamarine;
+    background-color: aquamarine;
     padding: 12px;
 }
