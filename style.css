@@ -4,6 +4,11 @@ body {
     margin: 0;
     /* background-color: #a85d3243; */
 } 
+
+.highlight-color-text {
+    color: orangered;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
