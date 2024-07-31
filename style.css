@@ -1,24 +1,54 @@
-.flexbox-container {
-    /* display turns whatever element it is tagged with into a "alignible" element*/
+body {
+    /* Find a Good Custom Font! */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /* background-color: #a85d3243; */
+} 
+.header-container {
     display: flex;
-    /* justify-content allow me to manipulate the alignment of child elements on the main axis */
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 28, 128, 0.44);
-    padding: 15px;
+    height: 100px;
+    background-color: #a85e32;
+    padding-left: 15px;
+}
+h1.child-1 {
+    font-size: 44px;
+    flex-basis: auto;
+    flex-shrink: 1;
+    flex-grow: 0;
 }
 
-.segoe-font.blue {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(0, 28, 128);
+nav.child-2 {
+    display: flex;
+    align-items: center;
+    flex-basis: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+    font-size: 25px;
 }
 
-.segoe-font.red {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: crimson;
+ul {
+    display: flex;
+    justify-content: center;
+    flex-basis: auto;
+    list-style: none;
+    text-align: center;
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+li {
+    padding: 20px;
+}
+
+a {
+text-decoration: none;
+color: #000;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #eea21f;
+    padding: 12px;
 }
