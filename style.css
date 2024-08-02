@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+}
+.main-content-contianer {
+    /* display: flex; */
+    padding-right: 10%;
+    border: dashed 4px rgb(2, 40, 255);
+}
+
+.left-side-links-contianer {
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: flex-start; */
+    padding-top: 30px;
+    padding-left: 25px;
+    /* border: dashed 4px purple; */
+
+}
+
+.weddings-view-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    /* border: dashed 4px red; */
+}
+
+.images {
+    display: flex;
+     border: dashed 4px red;
+}
+
+header {
+    padding-top: 25px;
+    /* border: dashed 4px rgb(9, 255, 0); */
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px;
+    /* border: dashed 4px magenta; */
+}
+
+li {
+    list-style: none;
+}
+a {
+    color: black;
+}
