@@ -1,53 +1,46 @@
 body {
-    display: flex;
-    flex-direction: row-reverse;
     margin: 0;
-}
-.main-content-contianer {
-    /* display: flex; */
-    padding-right: 10%;
-    border: dashed 4px rgb(2, 40, 255);
-}
-
-.left-side-links-contianer {
-    /* display: flex; */
-    /* flex-direction: column;
-    justify-content: flex-start; */
-    padding-top: 30px;
-    padding-left: 25px;
-    /* border: dashed 4px purple; */
-
-}
-
-.weddings-view-all {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    /* border: dashed 4px red; */
-}
-
-.images {
-    display: flex;
-     border: dashed 4px red;
+    padding-left: 12px;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    /* border: solid 10px yellow; */
 }
 
 header {
-    padding-top: 25px;
-    /* border: dashed 4px rgb(9, 255, 0); */
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    /* border: dashed 4px rgb(255, 0, 0); */
 }
 
 ul {
     display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding: 0px;
-    /* border: dashed 4px magenta; */
-}
-
-li {
+    gap: 100px;
     list-style: none;
+    font-size: 20px;
+    padding: 0;
+    /* border: dashed 4px rgb(0, 255, 17); */
+}
+.highlight-text-color {
+    color: #fff201;
 }
 a {
-    color: black;
+    text-decoration: none;
+    color: white;
+}
+.hover-highlight:hover {
+    color: #fff201;
+}
+.image-container-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    border: dashed 5px #fff201;
+}
+img {
+    border-radius: 10px;
+}
+@media screen and (min-width: 800px){
+    
 }
