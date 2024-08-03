@@ -36,7 +36,7 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
-    border: dashed 5px #fff201;
+    /* border: dashed 5px #fff201; */
 }
 img {
     border-radius: 10px;
